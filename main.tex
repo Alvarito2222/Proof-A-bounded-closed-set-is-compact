@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amssymb} 
+\usepackage{parskip} 
+
+\title{Proof : The intersection of two open sets is open}
+\author{aleonp000 }
+\date{January 2023}
+
+\begin{document}
+
+
+\noindent
+\textbf{Theorem}: A bounded closed set is compact.
+
+
+
+\textit{Proof}:  Let $M$ be a bounded closed set. Let's assume that $M$ is an infinite set.
+
+Now, let $\{A_i\}$ be an infinite subcollection of $M$. Since $M$ is bounded, there exists a closed square $S$ that contains $M$. According to \underline{theorem 29}, the square union its interior is compact. Therefore, the set $S$ is also compact.
+
+Since $\{A_i\}$ is an infinite subcollection of $M$, and $M \subseteq S$, $\{A_i\}$ is also an infinite subcollection of $S$. Since $S$ is compact, there exists a point $p \in S$ which is a limit point of this subcollection $\{A_i\}$.
+
+We need to show that $p \in M$. Since $M$ is closed, it contains all its limit points. Since $p$ is a limit point of the subcollection of $M$, $p$ must belong to $M$.
+
+Thus, we have shown that for every infinite subcollection of $M$, there exists a point $p \in M$ which is a limit point of this subcollection.
+
+
+
+
+
+ \noindent 
+ $\therefore$   $M$ is compact.     \spaceskip1cm   \hfill                     $\square$
+ 
+
+\end{document}
